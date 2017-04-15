@@ -1,0 +1,70 @@
+body {
+	background-image: url(../Images/swirl_pattern.png);
+}
+
+#left-image {
+	float: left;
+	position: relative;
+	padding: 5px;
+}
+
+#textbox1 {
+	position: absolute;
+	width: 260px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	top: 330px;
+	left: 126px;
+}
+
+#textbox3 {
+	position: absolute;
+	width: 260px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	top: 540px;
+	left: 126px;
+}
+
+#textbox5 {
+	position: absolute;
+	width: 260px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	top: 750px;
+	left: 126px;
+}
+
+#right-image {
+	float: right;
+	position: relative;
+	padding: 5px;
+}
+
+#textbox2 {
+	position: absolute;
+	width: 260px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	left: 466px;
+	top: 330px;
+}
+
+#textbox4 {
+	position: absolute;
+	width: 260px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 20px;
+	color: white;
+	left: 466px;
+	top: 540px;
+}
