@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 	<title>Alex Parish</title>
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="header">
     	<div class="container">
+      		
       		<div class="navbar-header">
-        		<a class="navbar-brand" href="#">Alex Parish</a>
+        		<a class="navbar-brand" href="index.html">Alex Parish</a>
       		</div>
+      		
       		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         		<ul class="nav navbar-nav navbar-right">
           			<li><a href="#">About</a></li>
@@ -19,63 +22,82 @@
           			<li><a href="contact.html">Contact</a></li>
         		</ul>
       		</div>
+    	
     	</div>
-  </nav>
+    </nav>
 
   	<div class="container">
 
     	<div class="row">
 
-      		<div class="col-md-8">
-
-      			<div class="panel panel-default">
-
-        			<div class="panel-body">
+      		<div class="col-md-8" id="main-content">
 
 		        		<div class="page-header">
         					<h1>About Me</h1>
         				</div>
 
        					<div class="row">
+
         					<div class="col-md-3">
-            					<img src="http://placehold.it/150x150" alt="Placeholder" class="img-thumbnail">
+            					<img src="assets/images/IMG_0133.JPG" alt="Alex Parish" class="img-thumbnail">
           					</div>
+
           					<div class="col-md-9">
             					<p>Hello! I'm Alex. I have a degree in Sound Recording Technology from Stephen F. Austin State University, but now I'm trying my hand at web development!</p>
 
 								<br>
 
-								<p>When I'm not doing that, I enjoy <a href="assets/images/photo_by_tess_cagle.jpg">loud rock shows</a>, <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000">bad movies</a>, <a href="https://www.youtube.com/watch?v=J-nm0oij20k">British television</a>, and <a href="https://www.discogs.com/user/amparish/collection">collecting records.</a></p>
+								<p>When I'm not doing that, I enjoy <a href="assets/images/photo_by_tess_cagle.jpg" target="_blank">loud rock shows</a>, <a href="https://en.wikipedia.org/wiki/Mystery_Science_Theater_3000" target="_blank">bad movies</a>, <a href="https://www.youtube.com/watch?v=J-nm0oij20k" target="_blank">British television</a>, and <a href="https://www.discogs.com/user/amparish/collection" target="_blank">collecting records.</a></p>
           					</div>
+
         				</div>
-
-        			</div>
-
-        		</div>
 
       		</div>
 
-      		<div class="col-md-4">
+      		<div class="col-md-4" id="connect">
         		<div class="panel panel-default">
+          			
           			<div class="panel-heading">
             			<h3 class="panel-title">Connect</h3>
          			</div>
+
           			<div class="panel-body">
-          				<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank">
-          					<img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn" width="85px" height="85px">
-          				</a>
+          				
+          				<div class="col-md-4">
+          					<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank" class="thumbnail">
+          						<img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn">
+          					</a>
+          				</div>
 
-						<a href="https://github.com/amparish" target="_blank">
-							<img src="assets/images/1491804542_mark-github.png" alt="GitHub" width="80px" height="80px">
-						</a>
+						<div class="col-md-4">
+							<a href="https://github.com/amparish" target="_blank" class="thumbnail">
+								<img src="assets/images/1491804542_mark-github.png" alt="GitHub">
+							</a>
+						</div>
 
-						<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank">
-							<img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow" width="80px" height="80px">
-						</a>
+						<div class="col-md-4">
+							<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank" class="thumbnail">
+								<img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow">
+							</a>
+        				</div>
+
         			</div>
+        				
         		</div>
       		</div>
+
     	</div>
+
     </div>
+
+    <nav class="navbar navbar-default navbar-fixed-bottom" id="footer">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+    			&copy; Copyright 2017 Alex Parish
+    		</div>
+    	</div>
+    </nav>
+
+
 </body>
 </html>

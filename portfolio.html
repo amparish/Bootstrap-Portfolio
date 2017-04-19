@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
 	<title>Portfolio</title>
 </head>
 <body>
 
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-default" id="header">
     	<div class="container">
       		<div class="navbar-header">
         		<a class="navbar-brand" href="#">Alex Parish</a>
@@ -96,29 +97,41 @@
 				</div>
 			</div>
 
-      			<div class="col-md-4">
+      			<div class="col-md-4" id="connect">
         			<div class="panel panel-default">
           				<div class="panel-heading">
             				<h3 class="panel-title">Connect</h3>
          				</div>
           				<div class="panel-body">
-          					<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank">
-          						<img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn" width="85px" height="85px">
-          					</a>
-
-							<a href="https://github.com/amparish" target="_blank">
-								<img src="assets/images/1491804542_mark-github.png" alt="GitHub" width="80px" height="80px">
-							</a>
-
-							<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank">
-								<img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow" width="80px" height="80px">
-							</a>
+          					<div class="col-md-4">
+          						<a href="https://www.linkedin.com/in/alex-parish-b6962863/" target="_blank" class="thumbnail">
+          							<img src="assets/images/1491804555_linkedin_circle_color.png" alt="LinkedIn">
+          						</a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://github.com/amparish" target="_blank" class="thumbnail">
+									<img src="assets/images/1491804542_mark-github.png" alt="GitHub">
+								</a>
+							</div>
+							<div class="col-md-4">
+								<a href="https://stackoverflow.com/users/7623814/amparish" target="_blank" class="thumbnail">
+									<img src="assets/images/1491804593_stackoverflow.png" alt="Stack Overflow">
+								</a>
+							</div>
         				</div>
         			</div>
         		</div>
 
     	</div>
     </div>
+
+    <nav class="navbar navbar-default" id="footer">
+    	<div class="container-fluid">
+    		<div class="navbar-header">
+    			&copy; Copyright 2017 Alex Parish
+    		</div>
+    	</div>
+    </nav>
 
 </body>
 </html>
